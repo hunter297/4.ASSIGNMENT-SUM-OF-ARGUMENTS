@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+       function sum(){
+        var sum = 0
+        for(var i = 0; i<arguments.length; i++){
+            sum +=arguments[i];
+        }
+
+        return sum;
+       }
+       var total = sum(10,20,40)
+       document.write(total)
+       document.write("<br>")
+       document.write(Math.sqrt(81))
+       document.write('<br>')
+       document.write(Math.sin(70))
+       document.write("<br>")
+       document.write(Math.cos(70))
+       document.write("<br>")
+       document.write(Math.tan(70))
+       
+    </script>
+</body>
